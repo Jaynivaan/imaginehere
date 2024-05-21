@@ -1,7 +1,7 @@
-import { UserButton } from '@clerk/nextjs'
-import React from 'react'
 
-export const Home = () => {
+import React from 'react';
+
+export const HomePage = () => {
   return (
     <div>
       
@@ -12,4 +12,4 @@ export const Home = () => {
   )
 }
 
-export default Home
+export default HomePage;
