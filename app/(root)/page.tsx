@@ -9,9 +9,9 @@ const Home = async () => {
   return (
     <>
       <section className="home">
-        <h1 className="home-heading">
-          Reboot Your creativity with AI-Image mechanic
-        </h1>
+      <h1 className="home-heading text-gold  border-gold-dark p-2.5 rounded-md bg-blue-333 hover:bg-blue-999">
+        Reboot Your Creativity with ✨AI-Image Mechanic🧑‍🔧
+      </h1>
         <ul className="flex-center w-full gap-20">
           {navLinks.slice(1, 5).map((link) => (
             <Link
